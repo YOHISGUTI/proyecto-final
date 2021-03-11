@@ -70,8 +70,8 @@ h4{
 	display: flex;
 	flex-direction: row;
 	justify-contente: space-between;
-	width: 100%;
-	margin-top: 50px;
+	width: 0%;
+	margin-top: 0px;
 }
 
 .moments{
@@ -96,6 +96,7 @@ h4{
 .box-container{
 	background-color:white;
 }
+
 .unico1, .unico2, .unico3, .unico4{
 	background-color: #004953;
 	border: solid 2px #043927; 
@@ -152,6 +153,7 @@ h4{
 	color:silver;
 ​
 }
+
 h2{
 	color: #2624bf;
 }
@@ -163,6 +165,7 @@ span.a{
     padding: 50px;
 	border:  3px solid red
     background-color: green;
+    text-transform: 10px
 }
 
 	
@@ -300,15 +303,15 @@ grid-column-gap: 3px;
 }   
 
 .contenedor2{
-	width: : 10px;
-	height: 50px;
-    background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
+	width: : 1px;
+	height: 5px;
+    background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 50%);
     
 }
     
 .contenedor2:hover .transform1{
 	transition:2s;
-	transform: translate(50px);
+	transform: translate(10px);
 	transition-duration: 3s;
 	background: #d1d94f;
 
@@ -356,7 +359,24 @@ th:hover tr{
 }
 
 
+@media screen and (max-width: 800px){
+	.main{
+		width:100%;
+	}
 
+	aside{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 800px){
+	.contenedor{
+		width: 100%;
+	}
+	aside {
+		display:none;
+	}
+}
 
 
 
