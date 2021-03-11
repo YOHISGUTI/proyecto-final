@@ -1,4 +1,4 @@
-{
+body {
    padding: 0px;
    margin: 0px;
    box-sizing: border-box;
@@ -21,7 +21,6 @@
 }
 
 nav{
-
 	display: grid;
 	grid-auto-columns: 5fr;
 	grid-template-rows: 10px 10px 30px 10px 10px;
@@ -69,7 +68,7 @@ h4{
 .moment{
 	display: flex;
 	flex-direction: row;
-	justify-contente: space-between;
+	justify-content: space-between;
 	width: 0%;
 	margin-top: 0px;
 }
@@ -142,16 +141,14 @@ h4{
 
 .unico{
 	color:green;
-​
 }
 
 #itemdescripcion{
 	color: brown;
-    }
+}
 ​
 #celdas{
 	color:silver;
-​
 }
 
 h2{
@@ -159,15 +156,14 @@ h2{
 }
 
 span.a{
-	display: inline;MI AMOGO ANGEL
+	display: inline;
     width: 50px;
     height: 150px;
     padding: 50px;
-	border:  3px solid red
+	border:  3px solid red;
     background-color: green;
     text-transform: 10px
 }
-
 	
 /*NAVEGACION*/
 
@@ -179,9 +175,9 @@ span.a{
 }
 
 a.logoa img{
-width: 50px;
-display: grid;
-grid-column-gap: 3px;
+	width: 50px;
+	display: grid;
+	grid-column-gap: 3px;
 }
 
 .mas{
@@ -215,16 +211,17 @@ grid-column-gap: 3px;
 }
 .reds{
 	display: flex;
-	flex-direc: row;
+	flex-direction: row;
 	width: 40px;
     height: 40px;
 }
-{
+
+/*{
    padding: 10px;
-   margin- 10px;
+   margin: 10px;
    box-sizing: border-box;
    justify-content: space-between;
-}
+}*/
 
 .web{
 	background-image: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
@@ -242,8 +239,8 @@ grid-column-gap: 3px;
 
 .footer1, .footer2, .footer3, .footer4, .footer5 {
 	border: solid 3px #191970;
-	flex-direction: row: 500px;
-	width:  350px;
+	flex-direction: row 500px;
+	width: 350px;
 	
 }
 
@@ -272,10 +269,8 @@ grid-column-gap: 3px;
 	padding-top: 20px;
 }
 
-
-
 .main2{
-	width: : 50%;
+	width: 50%;
 	height: 80px;
 	background-color: #52ACFF;
     background-image: linear-gradient(180deg, #52ACFF 25%, #FFE32C 100%);
@@ -296,14 +291,14 @@ grid-column-gap: 3px;
 
 .letras-slider p{
 	color: #4682B4;
-	font-size: 10px
+	font-size: 10px;
     font-family: rale;
-     padding-top:  5px;
+    padding-top:  5px;
 
 }   
 
 .contenedor2{
-	width: : 1px;
+	width: 1px;
 	height: 5px;
     background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 50%);
     
@@ -314,7 +309,6 @@ grid-column-gap: 3px;
 	transform: translate(10px);
 	transition-duration: 3s;
 	background: #d1d94f;
-
 }
 
 .transform1{
@@ -334,12 +328,11 @@ table{
 th, tr{
 	border: solid 3px #002D62;
 	padding: 10px;
-
 }
 
 caption{
     font-size: italic;
-	background -color: #FDBB2D;
+	background-color: #FDBB2D;
 	border:solid 3px #002D62 ;
 	color: #1E2952;
 }
@@ -380,7 +373,10 @@ th:hover tr{
 
 
 
-
+#demo {
+	width: 100%;
+	margin:30px;
+}
 
 
 
