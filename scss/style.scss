@@ -1,3 +1,8 @@
+#demo {
+	width: 100%;
+	margin:30px;
+}
+
 body {
    padding: 0px;
    margin: 0px;
@@ -291,15 +296,17 @@ a.logoa img{
 
 .letras-slider p{
 	color: #4682B4;
-	font-size: 10px;
+	font-size: 100%;
     font-family: rale;
     padding-top:  5px;
+    text-emphasis: center;
+
 
 }   
 
 .contenedor2{
-	width: 1px;
-	height: 5px;
+	width: 1%;
+	height: 5%;
     background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 50%);
     
 }
@@ -370,43 +377,3 @@ th:hover tr{
 		display:none;
 	}
 }
-
-
-
-#demo {
-	width: 100%;
-	margin:30px;
-}
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
