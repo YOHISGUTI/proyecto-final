@@ -33,6 +33,7 @@ nav{
                          "ALIMENTACION"
                          "CONTACTO"
                          "MOMENTOS"
+    font-family: "Lucida Console"                     
 }
 
 body{
@@ -176,6 +177,7 @@ span.a{
 	display: flex;
 	flex-direction: row;
 	color: #65000B;
+	font-family: "Lucida Console"
 
 }
 
@@ -305,8 +307,8 @@ a.logoa img{
 }   
 
 .contenedor2{
-	width: 1%;
-	height: 5%;
+	width: 1px;
+	height: 5px;
     background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 50%);
     
 }
@@ -376,4 +378,7 @@ th:hover tr{
 	aside {
 		display:none;
 	}
+}
+navegacion, footer{
+	font-family: "Sofia", sans-serif;
 }
